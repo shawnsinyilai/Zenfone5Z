@@ -1,0 +1,456 @@
+.asus {
+    /* background-image: url("../images/asus-z5.jpg"); */
+    width: 345px;
+    height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    position: relative;
+    /* border: 2px solid red; */
+    border-radius: 50px;
+    padding: 0;
+
+}
+.volumn{
+    position: absolute;
+    width: 3px;
+    height: 87.6px;
+    border: 0.3px solid transparent;
+    top: 153px;
+    left: 334.6px;
+    box-shadow: 0px 2px 1px black inset, 0px -2px 1px black inset,
+    2px 0px 1px white inset, -2px 0px 1px white inset;
+    border-radius: 2px;
+}
+.power_on{
+    position: absolute;
+    width: 3px;
+    height: 40px;
+    border: 0.3px solid transparent;
+    top: 273.6px;
+   left: 334.6px;
+    box-shadow: 0px 2px 1px black inset, 0px -2px 1px black inset,
+    2px 0px 1px white inset, -2px 0px 1px white inset;
+    border-radius: 2px;
+}
+.phone_wrap {
+    /* border: 1px solid orange; */
+    top: -3px;
+    left: 1px;
+    width: 335px;
+    height: 693px;
+    border-radius: 50px;
+    position: absolute;
+    box-shadow: 0px 2px 2px rgba(182, 182, 182, 0.6)inset,
+                0px 4px 2px rgba(182, 182, 182, 0.6)inset,
+                0px 4px 2px rgba(182, 182, 182, 0.6)inset,
+                2px 0px 2px rgba(182, 182, 182, 0.6)inset,
+                2px 0px 6px rgba(182, 182, 182, 0.6)inset,
+                6px 0px 12px rgba(255, 255, 255)inset;
+
+}
+
+.outer_outline {
+    position: absolute;
+    top: 3px;
+    left: 5px;
+    border: 1px solid silver;
+    width: 325px;
+    height: 680px;
+    border-radius: 40px;
+    box-shadow: 0px 0px 2px rgba(204, 204, 204, 0.6) inset,
+        0px 0px 6px rgba(204, 204, 204, 0.6) inset,
+        0px 0px 12px rgba(204, 204, 204, 0.6)inset;
+}
+
+.screen_outline {
+    width: 312px;
+    height: 645px;
+    position: absolute;
+    border: 1px solid black;
+    left: 12px;
+    top: 12px;
+    border-radius: 32px;
+    z-index: 1;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.6),
+        0px 2px 6px rgba(0, 0, 0, 0.4),
+        0px 2px 12px rgba(0, 0, 0, 0.4),
+        0px 2px 2px rgba(0, 0, 0, 0.6) inset,
+        0px 2px 6px rgba(0, 0, 0, 0.4) inset,
+        0px 2px 12px rgba(0, 0, 0, 0.4)inset;
+}
+
+.time_large_font span {
+    position: absolute;
+    font-size: 42pt;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+
+}
+
+.time_large_font span:first-child {
+    top: 50px;
+    left: 20px;
+    font-size: 48pt;
+}
+
+.time_large_font span:nth-child(3) {
+    top: 105px;
+    left: 20px;
+    font-size: 48pt;
+}
+
+.time_large_font span:nth-child(5) {
+    font-size: 10pt;
+    top: 173px;
+    left: 20px;
+}
+
+.screen {
+    height: 645px;
+    width: 312.6px;
+    position: absolute;
+    background-image: url("../images/wallpaper.jpg");
+    left: 12.6px;
+    top: 16.6px;
+    border-radius: 32px;
+    background-size: cover;
+    z-index: 1;
+
+}
+
+.reciever {
+    border: 2px solid black;
+    border-top: 2px solid transparent;
+    border-radius: 35% 35% 15% 15% / 70% 30% 70% 70%;
+    width: 110px;
+    height: 33px;
+    position: absolute;
+    top: 5px;
+    left: 112px;
+    z-index: 2;
+}
+
+.reciever::after {
+    width: 111px;
+    height: 31px;
+    content: "";
+    display: block;
+    background-color: black;
+    position: absolute;
+    top: 2.3px;
+
+    left: -0.1px;
+    z-index: 1;
+    border-radius: 10px;
+}
+
+.triangle-left {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 15px solid black;
+    border-left: 6px solid transparent;
+    transform: rotate(2deg);
+    top: 16px;
+    left: 107.6px;
+    z-index: 2;
+
+}
+
+.triangle-right {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 15px solid black;
+    border-right: 5px solid transparent;
+    top: 16px;
+    left: 225px;
+    z-index: 2;
+    transform: rotate(2deg);
+
+}
+
+.reception {
+    width: 91px;
+    height: 35px;
+    border: 2px solid transparent;
+    position: absolute;
+    top: 15px;
+    left: 18px;
+    border-radius: 32em 17em;
+    z-index: 1;
+}
+
+.reception::after {
+    content: "4G";
+    display: block;
+    position: absolute;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 0.6em;
+    font-weight: bold;
+    top: 5px;
+    left: 12px;
+}
+
+.reception_arrow_right {
+    width: 0;
+    height: 0;
+    border-bottom: 3px solid white;
+    border-left: 2px solid transparent;
+    border-right: 2px solid transparent;
+    position: absolute;
+    left: 18px;
+    top: 16px;
+
+}
+
+.reception_ball {
+    width: 25px;
+    height: 25px;
+    border: 2px solid black;
+    border-bottom: 2px solid transparent;
+    border-left: 2px solid transparent;
+    border-top: 2px solid transparent;
+    transform: rotate(-50deg);
+    position: absolute;
+    top: -3.3px;
+    left: 65px;
+    border-radius: 50px;
+}
+
+
+.reception_arrow_left {
+    width: 0;
+    height: 0;
+    border-top: 3px solid white;
+    border-left: 2px solid transparent;
+    border-right: 2px solid transparent;
+    position: absolute;
+    left: 14px;
+    top: 16px;
+
+}
+
+.reception1 {
+    width: 2px;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+    top: 15.6px;
+    left: 30.8px;
+}
+
+.reception2 {
+    width: 2px;
+    height: 6px;
+    background-color: white;
+    position: absolute;
+    top: 12.6px;
+    left: 32.9px;
+}
+
+.reception3 {
+    width: 2px;
+    height: 8px;
+    background-color: white;
+    position: absolute;
+    top: 10.6px;
+    left: 35.6px;
+}
+
+.reception4 {
+    width: 2px;
+    height: 10px;
+    background-color: white;
+    position: absolute;
+    top: 8.6px;
+    left: 37.8px;
+}
+
+.reception5 {
+    width: 2px;
+    height: 12px;
+    background-color: white;
+    position: absolute;
+    top: 6.8px;
+    left: 40.6px;
+}
+
+.reception6 {
+    width: 2px;
+    height: 15px;
+    background-color: white;
+    position: absolute;
+    top: 3.9px;
+    left: 44px;
+}
+
+
+.battery {
+    width: 91px;
+    height: 35px;
+    border: 2px solid transparent;
+    position: absolute;
+    top: 15px;
+    left: 228px;
+    border-radius: 13em 32em;
+    z-index: 1;
+}
+
+.battery::after {
+    position: absolute;
+    content: "10:36";
+    color: white;
+    top: 7px;
+    left: 43px;
+    font-weight: bolder;
+    font-size: 8pt;
+}
+
+.battery_ball {
+    width: 20px;
+    height: 20px;
+    border: 2px solid black;
+    border-bottom: 2px solid transparent;
+    border-left: 2px solid transparent;
+    border-top: 2px solid transparent;
+    transform: rotate(-135deg);
+    position: absolute;
+    top: -2.6px;
+    left: -6px;
+    border-radius: 50px;
+}
+
+.time {
+    position: absolute;
+    color: white;
+    font-size: 0.6em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    left: 300px;
+    top: 25px;
+    -webkit-text-size-adjust: auto;
+    z-index: 3;
+}
+
+.battery_icon {
+    width: 15px;
+    height: 6px;
+    position: absolute;
+    border: 1px solid white;
+    left: 20px;
+    top: 9px;
+    border-radius: 1px;
+}
+
+.battery_icon::after {
+    content: " ";
+    width: 13px;
+    height: 4px;
+    position: absolute;
+    display: block;
+    background-color: white;
+    left: 1px;
+    top: 1px;
+
+}
+
+.headofbattery {
+
+    width: 1px;
+    height: 1px;
+    position: absolute;
+    border: 0.5px solid white;
+    background-color: white;
+    left: 37px;
+    top: 12px;
+    border-radius: 0.3px;
+}
+
+
+.front_sensor {
+
+    width: 6px;
+    height: 6px;
+    position: absolute;
+    top: 17px;
+    left: 121px;
+    border: 1px solid black;
+    opacity: 0.3;
+     box-shadow: 1px 1px 2px silver inset,
+                -1px -1px 2px silver inset,
+                0px 0px 3px black inset,
+                0px 0px 3px black inset;
+    border-radius: 50px;
+    z-index: 2;
+}
+.inner_len{
+      width: 3px;
+    height: 3px;
+    position: absolute;
+    top: 19.6px;
+    left: 204.3px;
+    border: 1px solid silver;
+    border-radius: 50px;
+    background-color: white;
+    opacity: 0.3;
+    z-index: 3;
+}
+.front_camera {
+    width: 8px;
+    height: 8px;
+    position: absolute;
+    top: 17.5px;
+    left: 202.1px;
+    border: 0.6px solid silver;
+    opacity: 0.2;
+    border-radius: 50px;
+    z-index: 2;
+    box-shadow: 1px 1px 2px silver inset,
+                -1px -1px 2px silver inset,
+                0px 0px 3px black inset,
+                0px 0px 3px black inset;
+
+}
+
+.reciever_area {
+    height: 5px;
+    width: 50px;
+    border: 0.6px solid silver;
+    background-color: silver;
+    opacity: 0.1;
+    border-radius: 20px;
+    position: absolute;
+    top: 19px;
+    left: 140px;
+    z-index: 2;
+}
+
+.bottom_area {
+
+    position: absolute;
+    width: 311px;
+    height: 80px;
+    left: 11px;
+    top: 595px;
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 50px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.6);
+
+}
+
+.top_area {
+    position: absolute;
+    width: 312px;
+    height: 80px;
+    left: 12px;
+    top: 8px;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 50px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.6);
+
+}
